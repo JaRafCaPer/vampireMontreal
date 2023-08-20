@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import Principe from '../../assets/images/principe.jpg'
 import Principe2 from '../../assets/images/principe2.jpg'
 import Primo from '../../assets/images/primogeniature.avif'
+import Kingdom from "../../assets/images/king.webp"
 
 
 
@@ -25,8 +26,7 @@ const Contactanos = () => {
                     <p className="description">Siegfried's ascent to power in Montreal was catalyzed by a dispute born from the Covenant's broken pact, shattering the harmony between the city and its neighboring Quebec. An independent leader bound by tradition, he initiated a calculated blood hunt against the former Prince, averting a potentially catastrophic escalation of hostilities. With the reins of authority firmly in his grasp, Siegfried's reign stands as a testament to his unwavering resolve and the indomitable spirit of a once-mortal chieftain turned immortal ruler.</p>
                 </div>
                 <div className="personaje">
-                <h2 className="nombre">
-primogeniture</h2>
+                <h2 className="nombre">Primogeniture</h2>
                     <Image src={Primo} alt="" className="pj" />
                     <h3 className="nombre">Primogeniture</h3>
                     <p className="description">In the intricate tapestry of Montreal's vampiric society, the concept of primogeniture weaves a web of power and intrigue that shapes the destiny of Kindred unceasingly. As night descends upon this ancient city, the shadows cast by the past intertwine with the ambitions of the present, guided by the authority of the former Prince and the reigning sovereign.</p>
@@ -54,6 +54,19 @@ primogeniture</h2>
                     <p>Within the labyrinthine minds of the Malkavians, erratic laughter masks a deeper understanding of the city's convoluted power plays. Stricken by their own unique brand of insight, these Kindred appear to dance on the fringe of sanity while they meticulously chart the unfolding drama. Siegfried's stern governance is both a puzzle to decipher and a weapon to manipulate. Unpredictable alliances are forged, cryptic messages delivered, and seemingly nonsensical actions undertaken, all in the pursuit of orchestrating outcomes that defy the new Prince's expectations.</p>
 
                     <p>As moonlight bathes Montreal's streets, the fear of Prince Siegfried's strict regime echoes through the collective consciousness of its Kindred populace. Yet, paradoxically, this very dread serves as the catalyst that propels the city's major factions into the shadows, their yearning for dominion stronger than the chains of fear. The dance of ambition, manipulation, and secrecy continues, for even amidst the harshest of rule, the allure of power is a siren's call that few can resist.</p>
+
+                </div>
+                <div className="personaje">
+                <h1>Siegfried's Rule in a Chaotic Realm</h1>
+                    <Image src={Kingdom} alt="" className="pj" />
+
+                    <p>In the sprawling realm dominated by the chaotic fervor of the Sabbat, a lone bastion stands as a testament to the power of order. Siegfried's realm, meticulously governed by his unwavering hand, defies the anarchic landscape that surrounds it. The Sabbat's howls echo through the night, but within Siegfried's domain, a disciplined calm prevails.</p>
+
+                    <p>Siegfried, a master of control and strategy, wields his authority with an iron fist, upholding strict laws that demand allegiance from his subjects. His power, unyielding and undeniable, has silenced whispers of dissent, quelling any ambitions of rebellion. While the Sabbat revels in chaos, Siegfried's territory thrives in structure. He loves order as he loves power, intertwining them seamlessly into a rule that stands as a beacon of stability amidst the turmoil.</p>
+
+                    <p>Even the enigmatic Camarilla and the fervent Sabbat tread carefully around Siegfried's realm. The intricate web of alliances and blood-soaked intrigues has given way to a mutual understanding: Siegfried's power remains unchallenged. The prospect of toppling him is seen as a futile endeavor, an endeavor that would yield scarce rewards against an opponent so powerful and organized.</p>
+
+                    <p>As the chaotic tides of the Sabbat crash against the shores of Siegfried's dominion, the region remains a haven of enforced order. It's a realm where the very concept of control takes on new meaning, as Siegfried's unwavering grip keeps the forces of anarchy at bay and ensures that his reign stands tall, undeterred by the tempest that surrounds it.</p>
 
                 </div>
                 <div className="personaje">

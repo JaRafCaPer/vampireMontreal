@@ -2,7 +2,7 @@ html{
     background-color: black;
 }
 .todo{
-   
+   color: rgb(107, 2, 2);
     justify-content: end;
     max-width: 100vw;
     height: 100px;
@@ -37,7 +37,7 @@ html{
 }
 .pNav:hover{
     /* text-decoration: overline #CF8433; */
-    border-bottom: 3px solid #CF8433;
+    border-bottom: 3px solid #fc1d00;
     padding-bottom: 2px;
     display: inline;
 }

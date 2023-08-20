@@ -1,12 +1,4 @@
 import "./NavBar.css";
-import logoi from "../../assets/images/logoi.png";
-import logo from "../../assets/images/logo.png";
-import WhatsApp from "../../assets/images/WhatsApp.png"
-import Facebook from "../../assets/images/Facebook.png"
-import Instagram from "../../assets/images/Instagram.png"
-import Tiktok from "../../assets/images/Tiktok.png"
-import Mail from "../../assets/images/Gmail.png"
-import { Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
