@@ -1,0 +1,60 @@
+.bgh {
+    background: black;
+    width: 100vw;
+}
+.mainContainer{
+    width: 84.375vw;
+    height: 100vh;
+    margin-left: 7.8125vw;
+    background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .bgh {
+        background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
+        width: 100vw;
+        height: 1340px;
+    }
+    .mainContainer{
+        width: 100vw;
+        height: 100%;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+   
+}
+
+@media (max-width: 480px){
+    .bgh {
+        background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+    
+    .mainContainer{
+        width: 100%;
+        height: 100%;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+   
+}
