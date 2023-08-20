@@ -16,10 +16,10 @@
     align-items: center;
     text-align: center;
     font-family: 'Libre Baskerville';
- 
+    gap: 30px;
 }
 .pj{
-    width: 90vw;
+    width: 40vw;
     margin:auto;
     align-items: center;
 }
@@ -40,7 +40,11 @@
         align-items: center;
         justify-content: center;
     }
-    
+    .pj{
+        width: 70vw;
+        margin:auto;
+        align-items: center;
+    }
 }
 
 
@@ -60,5 +64,9 @@
         align-items: center;
         justify-content: center;
     }
-    
+    .pj{
+        width: 70vw;
+        margin:auto;
+        align-items: center;
+    }
 }
