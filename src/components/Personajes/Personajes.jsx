@@ -74,7 +74,14 @@ const Personajes = () => {
                 <p class="card-text"><strong>Fit in the City:</strong> Operates covertly within underworld, seeking justice through digital means.</p>
             </div>
         </div>
-
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Dimistra Balat - Ambitious Ventrue Businesswoman</h2>
+                <p class="card-text"><strong>History:</strong> Dimistra Balat, a shrewd and ambitious Ventrue, boasts a history drenched in corporate boardrooms and power plays. From her early years as a driven entrepreneur, she clawed her way to prominence with a relentless pursuit of success and dominance.</p>
+                <p class="card-text"><strong>Function in the Clan:</strong> Within the Ventrue clan, Dimistra stands as a testament to ambition. She leverages her business acumen to navigate the complex network of power, forging alliances and exploiting opportunities for her personal gain.</p>
+                <p class="card-text"><strong>Fit in the City:</strong> As an influential figure in the business world of Montreal, Dimistra's reputation as a cutthroat businesswoman precedes her. Her dealings extend far beyond the mundane, as she thrives in the shadows, orchestrating elaborate power plays and subjugating those who underestimate her hunger for dominance.</p>
+            </div>
+        </div>
         
         <div class="card">
             <div class="card-body">
