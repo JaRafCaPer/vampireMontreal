@@ -24,6 +24,8 @@ const NavBar = () => {
                                 style={{ color: color === "conocenos" ? "#4F6C7C" : "red" }}>City</Link></div>
                                 <div className="navLink"><Link className="pNav"to="mapas" onClick={() => handleClick("mapas")}
                                 style={{ color: color === "contactanos" ? "#4F6C7C" : "red" }}>Maps</Link></div>
+                                <div className="navLink"><Link className="pNav"to="tiradas" onClick={() => handleClick("tiradas")}
+                                style={{ color: color === "contactanos" ? "#4F6C7C" : "red" }}>Rolls</Link></div>
                             </div>
                         </div>
              
