@@ -1,39 +1,66 @@
-import "./NavBar.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+import { Navbar, NavbarItem, Link } from "@nextui-org/react";
 import { useState } from "react";
 
-
-
 const NavBar = () => {
-    const [color, setColor] = useState(null);
-    const handleClick = (item) => {
-        setColor(item);
-    };
+  const [color, setColor] = useState(null);
+  const handleClick = (item) => {
+    setColor(item);
+  };
 
-    return (
-        <>
-       
-                        <div className="todo">
-                            <div className="bloque">
-                                <div className="navLink"><Link className="pNav" to="/" onClick={() => handleClick("inicio")}
-                                style={{ color: color === "inicio" ? "#4F6C7C" : "red" }}>Home</Link></div>
-                                <div className="navLink"><Link className="pNav" to="personajes" onClick={() => handleClick("Personajes")}
-                                style={{ color: color === "sobre" ? "#4F6C7C" : "red" }}>Pjs</Link></div>
-                                <div className="navLink"><Link className="pNav" to="ciudad" onClick={() => handleClick("ciudad")}
-                                style={{ color: color === "conocenos" ? "#4F6C7C" : "red" }}>City</Link></div>
-                                <div className="navLink"><Link className="pNav"to="mapas" onClick={() => handleClick("mapas")}
-                                style={{ color: color === "contactanos" ? "#4F6C7C" : "red" }}>Maps</Link></div>
-                                <div className="navLink"><Link className="pNav"to="tiradas" onClick={() => handleClick("tiradas")}
-                                style={{ color: color === "contactanos" ? "#4F6C7C" : "red" }}>Rolls</Link></div>
-                            </div>
-                        </div>
-             
-            
-        </>
-
-
-    )
-}
+  return (
+    <Navbar className="bg-black text-danger text-decoration-none navbar">
+      <NavbarItem>
+        <Link
+        color="danger"
+          href="/"
+          className={`pNav ${color === "inicio" ? "active" : ""}`}
+          onClick={() => handleClick("inicio")}
+        >
+          Home
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link
+        color="danger"
+          href="/personajes"
+          className={`pNav ${color === "Personajes" ? "active" : ""}`}
+          onClick={() => handleClick("Personajes")}
+        >
+          Characters
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link
+        color="danger"
+          href="/ciudad"
+          className={`pNav ${color === "ciudad" ? "active" : ""}`}
+          onClick={() => handleClick("ciudad")}
+        >
+          City
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link
+        color="danger"
+          href="/mapas"
+          className={`pNav ${color === "mapas" ? "active" : ""}`}
+          onClick={() => handleClick("mapas")}
+        >
+          Maps
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link
+        color="danger"
+          href="/tiradas"
+          className={`pNav ${color === "tiradas" ? "active" : ""}`}
+          onClick={() => handleClick("tiradas")}
+        >
+          Rolls
+        </Link>
+      </NavbarItem>
+    </Navbar>
+  );
+};
 
 export default NavBar;

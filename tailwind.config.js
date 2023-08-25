@@ -1,12 +1,15 @@
+// tailwind.config.js
+const {nextui} = require("@nextui-org/react");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    // ...
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {
-        'tablet': '768px',  // Ejemplo de breakpoint para tablet
-        'mobile': '480px',  // Ejemplo de breakpoint para dispositivos móviles
-    },
+    extend: {},
   },
-  plugins: [],
-}
-
+  darkMode: "class",
+  plugins: [nextui()],
+};

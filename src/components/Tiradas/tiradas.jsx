@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Listbox, ListboxItem, Card, CardHeader, CardBody} from "@nextui-org/react";
 import disciplinesData from "./disciplines.json";
 
 const DisciplinesComponent = () => {
@@ -9,63 +10,56 @@ const DisciplinesComponent = () => {
   };
 
   return (
-    <div className="mt-5 bg-black">
+    <div className="bgContainer bg-black">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-3">
           <nav>
-            <h2 className="text-white">Disciplines</h2>
-            <ul className="list-group">
+            <h2 className="display-4 text-white">Disciplines</h2>
+            <Listbox
+              aria-label="Disciplines"
+              onAction={handleDisciplineClick}
+              selectedItem={selectedDiscipline}
+            >
               {disciplinesData.disciplines.map((discipline, index) => (
-                <li
-                  key={index}
-                  className={`list-group-item ${
-                    selectedDiscipline === index ? "active" : ""
-                  }`}
-                  onClick={() => handleDisciplineClick(index)}
-                >
+                <ListboxItem className="text-danger" key={index} value={index}>
                   {discipline.name}
-                </li>
+                </ListboxItem>
               ))}
-            </ul>
+            </Listbox>
           </nav>
         </div>
-        <div className="col-md-8">
-          <div>
-            <h1 className="text-white">
-              {selectedDiscipline !== null
-                ? disciplinesData.disciplines[selectedDiscipline].name
-                : "Select a Discipline"}
-            </h1>
-            <p className="text-white">
-              {selectedDiscipline !== null
-                ? disciplinesData.disciplines[selectedDiscipline].description
-                : "Select a Discipline to see its description"}
-            </p>
-          </div>
-          <div className="row">
-            {selectedDiscipline !== null &&
-              disciplinesData.disciplines[selectedDiscipline].abilities.map(
+        <div className="col-md-4">
+          {selectedDiscipline !== null && (
+            <div>
+              <h2 className="display-1 text-white text-center font-weight-bold extra">
+                {disciplinesData.disciplines[selectedDiscipline].name}
+              </h2>
+              <p className="">
+                {disciplinesData.disciplines[selectedDiscipline].description}
+              </p>
+              {disciplinesData.disciplines[selectedDiscipline].abilities.map(
                 (ability, abilityIndex) => (
-                  <div key={abilityIndex} className="col-md-6 mb-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <h5 className="card-title">{ability.power}</h5>
-                        <p className="card-text">{ability.description}</p>
-                        <p className="card-text">
-                          <strong>Level:</strong> {ability.level}
-                        </p>
-                        <p className="card-text">
-                          <strong>Cost:</strong> {ability.cost}
-                        </p>
-                        <p className="card-text">
-                          <strong>Reference:</strong> {ability.reference}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <Card key={abilityIndex} className="mb-2">
+                    <CardHeader>
+                      <h5>{ability.power}</h5>
+                    </CardHeader>
+                    <CardBody>
+                      <p>{ability.description}</p>
+                      <p>
+                        <strong>Level:</strong> {ability.level}
+                      </p>
+                      <p>
+                        <strong>Cost:</strong> {ability.cost}
+                      </p>
+                      <p>
+                        <strong>Reference:</strong> {ability.reference}
+                      </p>
+                    </CardBody>
+                  </Card>
                 )
               )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

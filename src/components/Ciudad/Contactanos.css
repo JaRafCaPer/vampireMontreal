@@ -8,7 +8,7 @@
     width: 84.375vw;
     height: 100%;
     margin-left: 150px;
-    background-image: url(../../assets/images/imgback.jpg);
+   
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
@@ -19,7 +19,7 @@
     gap: 30px;
 }
 .link{
-    background-color: rgb(168, 2, 2);
+    background-color: rgb(242, 106, 106);
     color: rgb(121, 0, 0);
     border-style: dashed;
     border: gold;
@@ -47,13 +47,13 @@
 
 @media (max-width: 768px) {
     .bg {
-        background-color: rgb(112, 3, 3);
+        background-color: rgb(41, 2, 2);
     }
     .containerContacto{
         width: 100vw;
         height: 100%;
         margin: 0px;
-        background-image: url(../../assets/images/imgback.jpg);
+   
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -63,6 +63,9 @@
         width: 70vw;
         margin:auto;
         align-items: center;
+    }
+    .text2{
+        width: 80vw;
     }
 }
 

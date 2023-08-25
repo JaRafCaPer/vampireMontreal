@@ -1,4 +1,6 @@
-import React from "react";
+import * as React from "react";
+import './App.css'
+import {NextUIProvider} from "@nextui-org/react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar.jsx"
 import Home from "./components/Home/Home.jsx";
@@ -11,7 +13,7 @@ import Tiradas from './components/Tiradas/tiradas.jsx'
 function App() {
   return (
     <div className='App'>
-
+      <NextUIProvider>
         <BrowserRouter>
           <NavBar />
           <Routes>
@@ -23,7 +25,7 @@ function App() {
           </Routes>
           
         </BrowserRouter>
-
+      </NextUIProvider>
     </div>
   );
 }
