@@ -53,7 +53,7 @@ const Ciudad = () => {
                     <p className="description">In the intricate tapestry of Montreal's vampiric society, the concept of primogeniture weaves a web of power and intrigue that shapes the destiny of Kindred unceasingly. As night descends upon this ancient city, the shadows cast by the past intertwine with the ambitions of the present, guided by the authority of the former Prince and the reigning sovereign.</p>
                     <p className="description">In the labyrinthine alleys and opulent salons of Montreal, primogeniture orchestrates a symphony of power struggles and alliances, where the echoes of past reigns and the weight of present decisions shape the eternal destiny of the Kindred under the watchful eyes of both fallen and reigning Princes.</p>
                 </div>
-
+                <h1 className="display-1"> City History Pages</h1>
                 <div id="power-struggle" className="text2">
                     <h2 className="nombre display-3">War for power</h2>
                     <h2 className="display-4">Whispers of Ambition in the Shadows: Montreal's Power Players and the Enigma of Prince Siegfried</h2>

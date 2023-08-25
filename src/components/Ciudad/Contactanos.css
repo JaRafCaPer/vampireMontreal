@@ -1,7 +1,9 @@
 .bg {
-    background: rgb(13, 9, 22);
+    background: transparent;
     width: 100%;
-    color: white;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+    color: rgb(248, 218, 191);
     align-items: center;
 }
 .containerContacto{
@@ -15,11 +17,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: 'Libre Baskerville';
+  
     gap: 30px;
 }
 .link{
-    background-color: rgb(242, 106, 106);
+    background-color: rgb(242, 167, 167);
     color: rgb(121, 0, 0);
     border-style: dashed;
     border: gold;
@@ -40,7 +42,10 @@
 .text2{
     width: 50vw;
     background-image: url(../../assets/images/paper.jpg);
-    color: black;
+    font-family: 'Old Standard TT', serif;
+   font-weight: 700;
+   color: rgb(98, 86, 2);
+   border-radius: 8px;
 }
 
 

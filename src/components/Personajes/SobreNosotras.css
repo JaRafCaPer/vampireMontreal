@@ -1,10 +1,11 @@
 .bgPjs {
-    background: rgb(31, 4, 0);
+   background-color: transparent;
     width: 100vw;
     height: 100%;
-    color: white;
+    color: rgb(183, 162, 4);
     text-align: center;
     align-items: center;
+    
 
 
     
@@ -13,12 +14,12 @@
     width: 84.375vw;
     height: 100%;
     margin-left: 8vw;
-    background-color: rgb(12, 1, 1);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 3vw;
-    font-family: 'Libre Baskerville';
+    
     
 
     border: 1px solid black;
@@ -31,7 +32,9 @@
 }
 .card2{
     background: radial-gradient(rgb(58, 1, 1), rgb(80, 0, 0), rgb(163, 2, 2) );
-    color: white;
+    color: rgb(246, 236, 160);
+    
+    font-weight: 700;
     width: 50%;
     height: auto;
     align-items: center;
