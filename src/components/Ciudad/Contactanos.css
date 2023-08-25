@@ -41,7 +41,7 @@
 }
 .text2{
     width: 50vw;
-   
+    background-image: url(../../assets/images/paper.jpg);
     font-family: 'Old Standard TT', serif;
    font-weight: 700;
    color: rgb(98, 86, 2);
@@ -51,9 +51,7 @@
 
 
 @media (max-width: 768px) {
-    .bg {
-        background-color: rgb(41, 2, 2);
-    }
+  
     .containerContacto{
         width: 100vw;
         height: 100%;
@@ -78,7 +76,7 @@
 
 @media (max-width: 480px) {
     .bg {
-        background-color: #90C2E9;
+       
         width: 100vw;
     }
     .containerContacto{
