@@ -41,7 +41,7 @@
 }
 .text2{
     width: 50vw;
-    background-image: url(../../assets/images/paper.jpg);
+   
     font-family: 'Old Standard TT', serif;
    font-weight: 700;
    color: rgb(98, 86, 2);
@@ -85,7 +85,7 @@
         width: 100vw;
         height: 100%;
         margin: 0px;
-        background-image: url(../../assets/images/imgback.jpg);
+       
         display: flex;
         flex-direction: column;
         align-items: center;
