@@ -21,8 +21,8 @@
     gap: 30px;
 }
 .link{
-    background-color: rgb(242, 167, 167);
-    color: rgb(121, 0, 0);
+    background-color: rgba(3, 1, 1, 0.214);
+    color: rgb(220, 3, 3);
     border-style: dashed;
     border: gold;
 }

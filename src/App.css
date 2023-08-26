@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 .App{
-    background: rgb(231,144,148);
-background: radial-gradient(ellipse,white, rgb(208, 132, 136) 4%, rgba(167,6,6,1) 33%, rgba(57,2,10,1) 72%);
- font-family: 'Old Standard TT', serif;
+    background: hsla(350, 73%, 44%, 1);
+
+    background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+    
+    font-family: 'Old Standard TT', serif;
 
 }

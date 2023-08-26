@@ -19,7 +19,7 @@ const Personajes = () => {
         
         <div className ="card2">
         <Image src={Helena} alt="" className ="card-img-top foto"/>
-            <div className ="card-body">
+            <div className ="card-body ">
                 <h2 className ="card-title display-4">The Ambitious Tremere: Helena Devereux</h2>
                 <p className ="card-text">Helena Devereux, the enigmatic leader of the Tremere Clan, wields a formidable grasp over the city's occult underbelly. The Tremere's mastery of blood magic grants them an edge that resonates through the very foundations of Montreal. Helena's control extends to both mystical and political domains, positioning the Tremere as influential puppeteers in the city's power struggles. Their aspirations for dominance are matched only by their capacity to manipulate hidden forces, leaving no doubt that the Tremere's arcane prowess molds Montreal's destiny with a potent, unseen hand.</p>
             </div>
