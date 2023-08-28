@@ -1,14 +1,21 @@
-import { Navbar, NavbarItem, Link } from "@nextui-org/react";
+import { Navbar,NavbarBrand, NavbarItem, Link } from "@nextui-org/react";
 import { useState } from "react";
+import VampLogo from '../../assets/images/logoVamp.png'
+import Image from 'react-bootstrap/Image';
+import '../NavBar/NavBar.css'
 
 const NavBar = () => {
   const [color, setColor] = useState(null);
-  const handleClick = (item) => {
+  const handleClick = (item) => { 
     setColor(item);
   };
 
   return (
     <Navbar className="bg-transparent text-decoration-none navbar">
+    <NavbarBrand>
+        <Image src={VampLogo} alt="" className ="card-img-top logo"></Image>
+        
+      </NavbarBrand>
       <NavbarItem>
         <Link
         color="warning"

@@ -5,10 +5,6 @@
     color: rgb(183, 162, 4);
     text-align: center;
     align-items: center;
-    
-
-
-    
 }
 .containerPjs {
     width: 84.375vw;
@@ -21,15 +17,13 @@
     row-gap: 3vw;
   padding: 8rem;
   height:100%;
-  
- 
-  
+
 }
 .card2{
     background: radial-gradient(rgb(58, 1, 1), rgb(80, 0, 0), rgb(163, 2, 2) );
     color: rgb(246, 236, 160);
-    
     font-weight: 700;
+    font-size: 30px;
     width: 50%;
     height: auto;
     align-items: center;
@@ -76,22 +70,24 @@
     .bg {
         background-color: white;
         width: 100vw;
-        height: 100%;
+        height: fit-content;
+        font-size: medium;
     }
     .containerPjs {
         width: 100vw;
-        height: 100%;
+        height: fit-content;
         align-content: flex-start;
         justify-items: flex-start;
         display: flex;
         flex-direction: column;
-        font-size: small;
+        font-size: medium;
        
 
     }
     .card2{
         width: 80vw;
         align-items: center;
+        font-size: medium;
     }
     .foto{
         margin: auto;

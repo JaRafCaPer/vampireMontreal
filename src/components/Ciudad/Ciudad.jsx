@@ -33,22 +33,22 @@ const Ciudad = () => {
                 </Nav>
                 
                 <div id="former-prince" className="personaje">
-                    <h2 className="nombre display-3">Former Prince</h2>
+                    <h2 className="nombre display-4">Former Prince</h2>
                     <Image src={Principe} alt="" className="pj" />
-                    <h3 className="nombre display-3">Kyle Strathcona</h3>
+                    <h3 className="nombre display-5">Kyle Strathcona</h3>
                     <p className="description text-center">A figure of both reverence and controversy, the former Prince Kyle Strathcona's legacy looms large, despite his downfall. Born into unlife as a diplomat bridging the gap between Toreador-controlled Scotland and the southern English Ventrue, Kyle's remarkable leadership and political acumen saw him ascend to the coveted seat of power in the newly forged Canadian territories. Yet, disillusionment with the Camarilla's hypocrisy drove him into the waiting embrace of the Sabbat. As a Ventrue antitribu, he rose within the Sabbat's ranks to become the formidable Cardinal of Canada and the Northern Territories. His eventual demise at the hands of the reigning Camarilla Prince in a dramatic coup did little to extinguish his lingering influence. Even now, his enigmatic image continues to haunt the clandestine corners of Montreal, a testament to the indelible impact of his reign.</p>
                 </div>
 
                 <div id="current-prince" className="personaje">
-                    <h2 className="nombre display-3">Prince</h2>
+                    <h2 className="nombre display-4">Prince</h2>
                     <Image src={Principe2} alt="" className="pj" />
-                    <h3 className="nombre display-3">Siegfried</h3>
+                    <h3 className="nombre display-5">Siegfried</h3>
                     <p className="description">Rising from the annals of history itself, Prince Siegfried commands Montreal's Kindred with an iron will forged through the centuries. Once a Visigoth chieftain who defied empires and embraced the darkness, Siegfried's transformation into a vampire was wrought with violence and rebellion. His diablerie of his sire marked a turning point that led him on a path of bloodshed and survival. Pursued relentlessly by the Roman Ventrue for his crime, he eventually secured his place within his own Clan, Ventrue, but not without enduring centuries of strife.</p>
                     <p className="description">Siegfried's ascent to power in Montreal was catalyzed by a dispute born from the Covenant's broken pact, shattering the harmony between the city and its neighboring Quebec. An independent leader bound by tradition, he initiated a calculated blood hunt against the former Prince, averting a potentially catastrophic escalation of hostilities. With the reins of authority firmly in his grasp, Siegfried's reign stands as a testament to his unwavering resolve and the indomitable spirit of a once-mortal chieftain turned immortal ruler.</p>
                 </div>
 
                 <div id="primogeniture" className="personaje">
-                    <h2 className="nombre display-3">Primogeniture</h2>
+                    <h2 className="nombre display-4">Primogeniture</h2>
                     <Image src={Primo} alt="" className="pj" />
                     <p className="description">In the intricate tapestry of Montreal's vampiric society, the concept of primogeniture weaves a web of power and intrigue that shapes the destiny of Kindred unceasingly. As night descends upon this ancient city, the shadows cast by the past intertwine with the ambitions of the present, guided by the authority of the former Prince and the reigning sovereign.</p>
                     <p className="description">In the labyrinthine alleys and opulent salons of Montreal, primogeniture orchestrates a symphony of power struggles and alliances, where the echoes of past reigns and the weight of present decisions shape the eternal destiny of the Kindred under the watchful eyes of both fallen and reigning Princes.</p>

@@ -1,25 +1,82 @@
 .bgh {
-    
+    background-color: transparent;
     width: 100vw;
+    height: fit-content;
+    color: rgb(183, 162, 4);
 }
 .mainContainer{
     width: 84.375vw;
-    height: 100vh;
+    height: fit-content;
     margin-left: 7.8125vw;
-    background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
     background-repeat: no-repeat;
     background-size:contain;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
+.cabeza2{
+    width: 70vw;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.botones{
+    width: 80%;
+    margin:10vh 10vw 0 10vw;
+    height: 20vh;
+    gap: 20px;
+    
+}
+.buttonMod{
+    width: 20vw;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+    background: hsla(350, 73%, 44%, 1);
+
+    background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+    
+    color: rgb(183, 162, 4);
+}
+.pMod{
+    background: hsla(350, 73%, 44%, 1);
+
+    background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+    
+}
+.titleMod{
+    color: rgb(183, 162, 4);
+}
+.pie{
+    align-items: center;
+    width: 70vw;
+    height: fit-content;
+    
+}
+.pH{
+    color: rgb(246, 236, 160);
+}
 
 
 /* Media query for tablets */
 @media (max-width: 768px) {
     .bgh {
-        background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
+        
         width: 100vw;
         height: 1340px;
     }
@@ -39,23 +96,79 @@
 
 @media (max-width: 480px){
     .bgh {
-        background-image: url(../../assets/images/desktop-wallpaper-vampire-themed-background-red-vampire.jpg);
+        background-color: transparent;
         width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-  }
-    
+        height: fit-content;
+        color: rgb(183, 162, 4);
+    }
     .mainContainer{
-        width: 80vw;
-        height: 100hv;        
+        width: 84.375vw;
+        height: fit-content;
+        margin-left: 7.8125vw;
+        background-repeat: no-repeat;
+        background-size:contain;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        margin: 0px;
-        padding: 0px;
+        text-align: center;
+    }
+    
+    .cabeza2{
+        width: 70vw;
+        height: 100%;
+        align-items: center;
+        
+    }
+    
+    .botones{
+        width: 80%;
+        margin:10vh 10vw 10vh 30vw;
+        height: 20vh;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonMod{
+        width: 40vw;
+        height: 50px;
+        margin-left: 10px;
+        font-size: 14px;
+        background: hsla(350, 73%, 44%, 1);
+    
+        background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+        
+        color: rgb(183, 162, 4);
+    }
+    .pMod{
+        background: hsla(350, 73%, 44%, 1);
+    
+        background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+        
+    }
+    .titleMod{
+        color: rgb(183, 162, 4);
+    }
+    .pH{
+        font-size: medium;
+    }
+    .pie{
+        align-items: center;
+        width: 70vw;
+        height: fit-content;
+        font-size: medium;
+        
     }
    
 }
