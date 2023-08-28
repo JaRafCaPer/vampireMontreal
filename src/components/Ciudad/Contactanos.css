@@ -99,7 +99,8 @@
         font-size: medium;
     }
     .description{
-        margin-left: 10vw;
+        margin-left: 0;
+        width: 70vw;
         font-size: medium;
     }
     .pj{

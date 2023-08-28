@@ -35,13 +35,13 @@
     height: 50px;
     margin-left: 10px;
     font-size: 30px;
-    background: hsla(350, 73%, 44%, 1);
+    background: rgb(2, 0, 0);
 
-    background: radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    background: radial-gradient(circle, rgb(20, 2, 5) 0%, hsla(274, 65%, 12%, 1) 100%);
     
-    background: -moz-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    background: -moz-radial-gradient(circle, rgb(84, 6, 19) 0%, hsla(274, 65%, 12%, 1) 100%);
     
-    background: -webkit-radial-gradient(circle, hsla(350, 73%, 44%, 1) 0%, hsla(274, 65%, 12%, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgb(113, 7, 25) 0%, hsla(274, 65%, 12%, 1) 100%);
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
     
